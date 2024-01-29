@@ -20,7 +20,24 @@ This Python script performs the MixColumns transformation in the Advanced Encryp
 13 14 15 16
 ```
 
-This input creates a 4x4 matrix, and you can observe the MixColumns transformation and its inverse for each column.
+### Output:
+
+```plaintext
+Input Matrix:
+[[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+
+Mixed: [7, 14, 17, 28]
+Inverse mixed: [77, 112, 83, 106]
+
+Mixed: [35, 34, 37, 56]
+Inverse mixed: [241, 180, 207, 150]
+
+Mixed: [63, 70, 73, 68]
+Inverse mixed: [243, 69, 109, 175]
+
+Mixed: [75, 74, 77, 112]
+Inverse mixed: [226, 103, 156, 37]
+```
 
 ## Note
 
